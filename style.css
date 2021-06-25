@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #202040;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+.title {
+    color: #ff6363;
+    font-weight: 500;
+    font-size: 115px;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem 2rem;
+    outline: none;
+    height: 45px;
+    border-radius: 30px;
+    width: 390px;
+    margin: 0.40rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.add {
+    outline: none;
+    border: none;
+    border-radius: 150px;
+    height: 45px;
+    background-color: #00ff02;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    width: 45px;
+    font-size: 18px;
+}
+
+.add:hover {
+    background-color: orange;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item_input {
+    height: 40px;
+    background: #ddf9fc;
+    outline: none;
+    border: 3px solid #f5e2fd;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    color: #000;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 315px;
+}
+
+.remove {
+    background: none;
+    outline: none;
+    border: none;
+    color: #b6b6b6;
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.remove_btn {
+    margin-top: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ff6363;
+    padding: 12px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.remove_btn:hover {
+    background: yellow;
+    color: black;
+    letter-spacing: 1px;
+    box-shadow: 0px 5px 40p -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
